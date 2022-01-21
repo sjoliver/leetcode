@@ -10,4 +10,3 @@ function digitizeAlt(n) {
 
 };
 
-console.log(digitizeAlt(123))

@@ -19,3 +19,10 @@ function oddOrEven(array) {
   }
   
   };
+
+  function oddOrEvenAlt(arr) {
+
+    // second argument in reduce will be added as the initial value so [1, 2] would be [0,1,2]
+    // if the num % 2 is truthy (non-zero), terniary operator evaluates to "odd"
+    return arr.reduce((a,b) => a + b, 0) % 2 ? 'odd' : 'even';
+  };
