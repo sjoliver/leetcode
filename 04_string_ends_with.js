@@ -15,3 +15,7 @@ function solution(str, ending){
   return false;
 
 }
+
+function solutionAlt(str, ending){
+  return str.endsWith(ending);
+}
